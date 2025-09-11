@@ -1,0 +1,26 @@
+/* Column wise buttons for main login */
+.login-buttons-column {
+  display: flex;
+  flex-direction: column;   /* vertical stack */
+  gap: 15px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.login-buttons-column button {
+  width: 220px;             /* same width for all */
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #ffcc00;      /* cinema yellow */
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-buttons-column button:hover {
+  background: #ffaa00;      /* darker yellow on hover */
+  color: #111;
+}
